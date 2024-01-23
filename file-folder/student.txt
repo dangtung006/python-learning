@@ -1,0 +1,3 @@
+1	Tung Dang	A1	Thai Nguyen
+2	Tuan Nguyen	A2	Bac Giang
+3	Tu Tran	A1	Thai Nguyen
