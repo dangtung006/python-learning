@@ -1,5 +1,4 @@
 from datetime import date, time, datetime, timedelta
-import time
 
 ### init date of today :
 today = date.today()
@@ -23,5 +22,12 @@ print(datetime.now()) ## datetime.now() return datetime object
 # objectdt = datetime.strptime(timeString, '%d-%m-%Y')
 dy1 = timedelta(days=10)
 dy2 = timedelta(days=5)
-print(dy1 -dy2)
-# help(timedelta)
+print(dy1 - dy2)
+
+# help(datetime.combine)
+
+given_date = datetime.strptime('2024-01-30', '%Y-%m-%d').date()
+specific_time = time(12, 30) 
+dateCombine = datetime.combine(given_date, specific_time)
+diff = dateCombine > datetime.now()
+print(diff)
