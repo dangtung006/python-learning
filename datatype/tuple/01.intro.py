@@ -3,7 +3,11 @@ myTuple = (1, 2, 3, 'a', 'b', 'c')
 print(myTuple)
 
 ## access item in tuple:
-print(myTuple[0])
+print(myTuple[0])# Output: 1
+# Truy cập phần tử cuối cùng
+print(myTuple[-1])  # Output: 'c'
+# Truy cập một phần tử từ vị trí thứ 2 đến vị trí thứ 4
+print(myTuple[1:4])  # Output: (2, 3, 'a')
 
 ### immutable type 
 try:
