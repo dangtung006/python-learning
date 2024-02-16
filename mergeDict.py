@@ -1,5 +1,6 @@
 from pprint import pprint
 from collections import ChainMap
+
 capital_1 = {
     "VN" : "Ha Noi",
     "ThaiLand" : "Bangkok"
@@ -18,7 +19,7 @@ capital_2 = {
 # print(capital_copy)
 
 ### unpack operator :
-capitals = { **capital_1, **capital_2}
+capitals = { **capital_1, **capital_2 }
 print(capitals)
 
 ### pipe operator 
